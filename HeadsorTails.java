@@ -16,5 +16,8 @@ public class HeadsorTails{
             }
         }
         out.println("Heads:"+counts+",Tails:"+(3-counts));
+
+        if(counts>(3-counts)) out.println("You won!");
+        else out.println("You lost!");
     }
 }
